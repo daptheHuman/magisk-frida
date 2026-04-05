@@ -1,6 +1,6 @@
 #!/bin/sh
 MODPATH=${0%/*}
-PATH=$PATH:/data/adb/ap/bin:/data/adb/magisk:/data/adb/ksu/bin
+PATH=$PATH:/data/adb/ap/bin:/data/adb/magisk:/data/adb/ksu/bin:/data/adb/modules/magisk-frida/system/bin
 
 # log
 exec 2> $MODPATH/logs/utils.log
